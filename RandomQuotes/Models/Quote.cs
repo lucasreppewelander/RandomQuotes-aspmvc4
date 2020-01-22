@@ -21,8 +21,6 @@ namespace RandomQuotes.Models
             var random = new Random();
             var index = random.Next(Quotes.Count);
 
-			Console.WriteLine("Hello hey!");
-
             var randomQuote = Quotes.ElementAtOrDefault(index);
             var randomAuthor = Authors.ElementAtOrDefault(index);
 
